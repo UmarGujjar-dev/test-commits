@@ -6,7 +6,7 @@ import simpleGit from "simple-git";
 const path = "./data.json";
 const git = simpleGit();
 
-const START_DATE = "2025-01-01";
+const START_DATE = "2024-01-01";
 const END_DATE = "2025-05-31";
 
 async function generateCommits() {
